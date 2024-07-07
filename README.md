@@ -61,8 +61,9 @@ Jalankan perintah berikut untuk mengkloning dan bootstrap `vcpkg` dalam direktor
 
 ```sh
 mkrs env vcpkg /path/to/your/project
+```
 
-## Ganti /path/to/your/project dengan direktori proyek Anda. Perintah ini akan melakukan hal berikut:
+Ganti `/path/to/your/project` dengan direktori proyek Anda. Perintah ini akan melakukan hal berikut:
 
 Mengkloning repository vcpkg ke dalam direktori proyek jika belum ada.
 Menjalankan skrip bootstrap-vcpkg.sh untuk menginstal dan mengonfigurasi vcpkg.
@@ -86,8 +87,9 @@ Kami menyambut kontribusi dari komunitas untuk meningkatkan mkrs CLI. Jika Anda 
 
 
 ## Lisensi
-Proyek ini dilisensikan di bawah MIT License.
+Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/license/mit).
+
 ---
-Dibuat dengan ❤️  oleh Mekarsa
+Dibuat dengan ❤️ oleh [Mekarsa](https://mekarsa.com) 
 
 
