@@ -1,0 +1,28 @@
+#!/bin/bash
+
+set -e
+
+SCRIPT_DIR=$(dirname "$0")
+BASE_DIR=$(cd "$SCRIPT_DIR/.." && pwd)
+
+function usage() {
+  echo "Usage : $0 env vcpkg <target_directory>"
+  exit 1
+}
+
+if [ "$#" -ne 3 ]; then
+  usage
+fi 
+
+COMMAND=$1
+ACTION=$2
+TARGET_DIR=$3
+
+if [ "$COMMAND" != "env" ] || [ "$ACTION" != "vcpkg" ]; then
+  usage
+fi 
+
+# run the script install_vcpkg.sh with contain TARGET_DIR
+"$BASE_DIR/scripts/install_vcpkg.sh" "$TARGET_DIR"
+
+
