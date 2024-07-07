@@ -12,8 +12,8 @@
 1. **Clone Repository Mekarsa CLI**:
 
     ```sh
-    git clone https://github.com/username/mkrs-cli.git
-    cd mkrs-cli
+    git clone https://github.com/username/mekarsa-cli.git
+    cd mekarsa-cli
     ```
 
 2. **Buat Skrip Eksekutabel**:
